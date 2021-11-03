@@ -1,0 +1,21 @@
+.Carousel-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Carousel-main > i {
+  cursor: pointer;
+  margin: 20px;
+  color: #aaa;
+}
+
+.Carousel-main > i:hover {
+  color: black;
+}
+
+.Carousel-main > i.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
